@@ -1,0 +1,13 @@
+<!−−templates/post_detail.html−−>
+{% extends 'base.html' %}
+
+{% block content %}
+		<div class="post-entry">
+			    <h2>{{post.title}}</h2>
+			    <p>{{post.body}}</p>	    
+			    <a href="{% url 'post_update' post.pk %}">cambiar</a>
+			    <a href="{% url 'post_delete' post.pk %}">Quitar</a>
+		</div>
+
+{% endblock content %}
+

@@ -1,0 +1,46 @@
+<!−−templates/base.html−−>
+{% load static %}
+<html>
+	<head>
+		<title>Recetas Francesas</title>
+				<link href="https://fonts.googleapis.com/css?family=\Source+Sans+Pro:400" rel="stylesheet">
+				<link href="{% static 'css/base.css' %}" rel="stylesheet">
+	</head>
+	<body>	
+	<div>
+		<header>
+			<div class="nav-left">
+					<h1><a href="{%url 'home' %}">Recetas Francesas</a></h1>
+			</div>
+		<div class="nav-right">
+
+			<h1>Lista de platillos franceses </h1>
+
+			<ol>
+				<li> Ratatouille</li>
+				<li> Crepes </li>
+				<li> Galette Complète </li>
+			<ol>
+
+			<h1> Imagenes </h1>
+
+			<img class="img1" src="https://i.pinimg.com/originals/9f/6d/79/9f6d79ad94bded139e9197768aae26e7.jpg">
+
+			<hr/>
+
+			<img class="img2" src="https://www.elviajerofisgon.com/wp-content/uploads/2015/02/crepe-e1424215311917.jpg">
+
+			<hr/>
+
+			<img class="img3" src="https://www.elviajerofisgon.com/wp-content/uploads/2015/02/galette-e1424215484209.jpg">
+			<div>
+			<a class="eee" href="{% url 'post_new' %}">+ New Blog Post </a>
+			</div>
+		</div>
+		</header> 
+		{% block content %}
+		{% endblock content %}
+		
+	</div>
+	</body>
+</html>		

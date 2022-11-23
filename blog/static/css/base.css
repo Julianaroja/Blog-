@@ -1,0 +1,25 @@
+header h1 a{
+	color: #008080;
+	border:3px solid MediumSeaGreen;
+	height:50px;
+	width:400px;
+	margin-left: 450px;
+	font-size:30px;
+	position: center;
+}
+
+.titulo{
+
+
+}
+.nav-right
+{
+	color: green;
+}
+.eee{
+	color: green;
+}
+body
+{
+	background: #6DFA9C;
+}
