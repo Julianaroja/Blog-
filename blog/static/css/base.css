@@ -1,5 +1,5 @@
 header h1 a{
-	color: #008080;
+	color: #EEB3C6;
 	border:3px solid MediumSeaGreen;
 	height:50px;
 	width:400px;
@@ -14,12 +14,18 @@ header h1 a{
 }
 .nav-right
 {
-	color: green;
+	color: blue;
 }
 .eee{
 	color: green;
+	border:3px solid MediumSeaGreen;
+	height:50px;
+	width:400px;
+	margin-left: 450px;
+	font-size:30px;
+	position: center;
 }
 body
 {
-	background: #6DFA9C;
+	background: #EEB3C6;
 }
